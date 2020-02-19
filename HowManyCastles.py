@@ -24,6 +24,7 @@ if __name__ == "__main__":
     N = []
     for i in range(0, T):
         N.append([int(t) for t in input().strip().split(' ')])
-        print(N[i])
+
     for i in range(0, T):
+        print(N[i])
         print(castle_placer(N[i]))
